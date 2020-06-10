@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 export default function App() {
-let {count, setcount}=userState(0)
+let {count, setcount}=useState(0)
   return (
     <div >
    <h3>value of counter is:{count}</h3>
