@@ -37,4 +37,4 @@ jobs:
       run: npm i -g surge
       
     - name: Upload site
-      run: surge ./build project003reactapp.surge.sh/ --token ${{secrets.surge-token-lecture4}}
+      run: surge ./build project003reactapp.surge.sh/ --token ${{secrets.NEW_SECRET_OF_LECTURE4}}
