@@ -8,7 +8,7 @@ let {count, setcount}=useState(0)
     <div >
    <h3>value of counter is:{count}</h3>
 <button onClick={
-  ()=>setcount(count+1)
+  ()=>setCount(count + 1)
 }>
   update button
 </button>
