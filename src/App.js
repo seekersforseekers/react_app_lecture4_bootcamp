@@ -2,7 +2,7 @@ import React ,{useState}from 'react';//shadow dom or virtual dom
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App() {
 let {count, setcount}=userState(0)
   return (
     <div >
@@ -16,4 +16,4 @@ let {count, setcount}=userState(0)
   );
 }
 
-export default App;
+
