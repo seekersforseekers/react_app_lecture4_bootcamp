@@ -3,11 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-let {count,setcount}=userState(0)
+let {count, setcount}=userState(0)
   return (
-    <div className="App">
+    <div >
    <h3>value of counter is:{count}</h3>
-   
+<button onClick={
+  ()=>setcount(count+1)
+}>
+  update button
+</button>
     </div>
   );
 }
