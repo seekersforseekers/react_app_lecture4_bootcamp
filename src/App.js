@@ -1,24 +1,13 @@
-import React from 'react';
+import React ,{useState}from 'react';//shadow dom or virtual dom
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+let {count,setcount}=userState(0)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <h3>value of counter is:{count}</h3>
+   
     </div>
   );
 }
