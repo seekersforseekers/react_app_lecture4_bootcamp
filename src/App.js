@@ -8,7 +8,7 @@ export default function App() {
 let [count, setCount]=useState(0);
 let[ismorning,setDay]=useState(true);
   return (
-    <div class="box" >
+    <div className="box" >
      <h1>Day Time={ismorning? 'Morning':'Night'}</h1>
       <Message counter={count}/>
    <h3>value of counter is:{count}</h3>
