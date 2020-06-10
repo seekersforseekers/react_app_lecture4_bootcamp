@@ -4,15 +4,15 @@ import {Message} from './Message.js'
 import './App.css';
 
 export default function App() {
-let {count, setCount}=useState(0)
+let {count, setCount}=useState(0);
   return (
     <div >
       <Message counter={count}/>
    <h3>value of counter is:{count}</h3>
 <button onClick={
-  ()=>setCount(count + 1)
+ ()=>setCount(count + 1)
 }>
-  update button
+  update counter
 </button>
     </div>
   );
