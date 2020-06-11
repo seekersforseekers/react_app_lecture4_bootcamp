@@ -2,8 +2,15 @@ import React ,{useState}from 'react';//shadow dom or virtual dom
 import logo from './logo.svg';
 import {Message} from './Message.js'
 import './App.css';
-
-
+import Greetings from './Greetings'
+class App extends component{
+  render(){
+    <div className="App">
+    <greetings />
+    </div>
+  }
+}
+/*
 export default function App() {
 let [count, setCount]=useState(0);
 let[ismorning,setDay]=useState(true);
@@ -20,5 +27,7 @@ let[ismorning,setDay]=useState(true);
     </div>
   );
 }
+*/
+
 
 
