@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import {Message} from './Message.js'
 import './App.css';
 import Greetings from './Greetings'
-class App extends component{
+class App extends Component{
   render(){
     <div className="App">
     <greetings />
