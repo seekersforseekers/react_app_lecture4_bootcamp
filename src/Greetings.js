@@ -22,3 +22,4 @@ class greetings extends Component{
     }
 
 }
+export default greetings
